@@ -31,7 +31,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: false
-          tags: tiangolo/uvicorn-gunicorn-fastapi:${{ matrix.image.name }}
+          tags: shiphero/uvicorn-gunicorn-fastapi:${{ matrix.image.name }}
           context: ./docker-images/
           file: ./docker-images/${{ env.DOCKERFILE_NAME }}.dockerfile
       - name: Set up Python
