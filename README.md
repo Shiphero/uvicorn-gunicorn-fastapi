@@ -1,46 +1,20 @@
-[![Test](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/actions/workflows/test.yml/badge.svg)](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/actions/workflows/test.yml) [![Deploy](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/workflows/Deploy/badge.svg)](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/actions?query=workflow%3ADeploy)
+[![Test](https://github.com/shiphero/uvicorn-gunicorn-fastapi/actions/workflows/test.yml/badge.svg)](https://github.com/shiphero/uvicorn-gunicorn-fastapi/actions/workflows/test.yml) [![Deploy](https://github.com/shiphero/uvicorn-gunicorn-fastapi/workflows/Deploy/badge.svg)](https://github.com/shiphero/uvicorn-gunicorn-fastapi/actions?query=workflow%3ADeploy)
 
 ## Supported tags and respective `Dockerfile` links
 
-* [`python3.11`, `latest` _(Dockerfile)_](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/blob/master/docker-images/python3.11.dockerfile)
-* [`python3.10`, _(Dockerfile)_](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/blob/master/docker-images/python3.10.dockerfile)
-* [`python3.9`, _(Dockerfile)_](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/blob/master/docker-images/python3.9.dockerfile)
-* [`python3.8`, _(Dockerfile)_](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/blob/master/docker-images/python3.8.dockerfile)
-* [`python3.7`, _(Dockerfile)_](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/blob/master/docker-images/python3.7.dockerfile)
-* [`python3.11-slim` _(Dockerfile)_](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/blob/master/docker-images/python3.11-slim.dockerfile)
-* [`python3.10-slim` _(Dockerfile)_](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/blob/master/docker-images/python3.10-slim.dockerfile)
-* [`python3.9-slim` _(Dockerfile)_](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/blob/master/docker-images/python3.9-slim.dockerfile)
-* [`python3.8-slim` _(Dockerfile)_](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/blob/master/docker-images/python3.8-slim.dockerfile)
-
-## Deprecated tags
-
-🚨 These tags are no longer supported or maintained, they are removed from the GitHub repository, but the last versions pushed might still be available in Docker Hub if anyone has been pulling them:
-
-* `python3.9-alpine3.14`
-* `python3.8-alpine3.10`
-* `python3.7-alpine3.8`
-* `python3.6`
-* `python3.6-alpine3.8`
-
-The last date tags for these versions are:
-
-* `python3.9-alpine3.14-2024-03-11`
-* `python3.8-alpine3.10-2024-01-29`
-* `python3.7-alpine3.8-2024-03-11`
-* `python3.6-2022-11-25`
-* `python3.6-alpine3.8-2022-11-25`
+* [`python3.8.16-slim` _(Dockerfile)_](https://github.com/shiphero/uvicorn-gunicorn-fastapi/blob/master/docker-images/python3.8.16-slim.dockerfile)
 
 ---
 
-**Note**: There are [tags for each build date](https://hub.docker.com/r/tiangolo/uvicorn-gunicorn-fastapi/tags). If you need to "pin" the Docker image version you use, you can select one of those tags. E.g. `tiangolo/uvicorn-gunicorn-fastapi:python3.7-2019-10-15`.
+**Note**: There are [tags for each build date](https://hub.docker.com/r/shiphero/uvicorn-gunicorn-fastapi/tags). If you need to "pin" the Docker image version you use, you can select one of those tags. E.g. `ghcr.io/shiphero/uvicorn-gunicorn-fastapi:python3.8.16-slim-2024-05-29`.
 
 # uvicorn-gunicorn-fastapi
 
 [**Docker**](https://www.docker.com/) image with [**Uvicorn**](https://www.uvicorn.org/) managed by [**Gunicorn**](https://gunicorn.org/) for high-performance [**FastAPI**](https://fastapi.tiangolo.com/) web applications in **[Python](https://www.python.org/)** with performance auto-tuning.
 
-**GitHub repo**: [https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker)
+**GitHub repo**: [https://github.com/shiphero/uvicorn-gunicorn-fastapi-docker](https://github.com/shiphero/uvicorn-gunicorn-fastapi)
 
-**Docker Hub image**: [https://hub.docker.com/r/tiangolo/uvicorn-gunicorn-fastapi/](https://hub.docker.com/r/tiangolo/uvicorn-gunicorn-fastapi/)
+**Docker image**: https://github.com/Shiphero/uvicorn-gunicorn-fastapi/pkgs/container/uvicorn-gunicorn-fastapi
 
 ## Description
 
