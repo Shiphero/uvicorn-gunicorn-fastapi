@@ -3,7 +3,8 @@ name: Deploy
 on:
   push:
     branches:
-      - master
+      # - master
+      - lvitti/add_python.3.8.16-slim
   workflow_dispatch:
 
 jobs:
