@@ -2,7 +2,7 @@ import sys
 
 from fastapi import FastAPI
 
-version = f"{sys.version_info.major}.{sys.version_info.minor}"
+version = f"{sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro}"
 
 app = FastAPI()
 
